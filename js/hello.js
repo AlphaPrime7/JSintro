@@ -69,9 +69,7 @@ var hello_adj_adv = function() {
     };
   };
 }
-
 //CONCLUSION: As can be seen here this syntax looks very similar to R except the var @ the beginning of the function name
-
 
 //TESTS
 //run hello
