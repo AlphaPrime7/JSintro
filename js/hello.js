@@ -47,7 +47,7 @@ var hello_adj_adv = function() {
    console.log('enter echo * password');
    var pw = prompt({echo: '*'});
    var autocompleteTest = prompt('custom autocomplete: ', {
-    autocomplete: complete([])
+    autocomplete: complete([]) //i am guessing my list of passwords should come from the prompt_hist_file
   });
 
   prompt.history.save();
