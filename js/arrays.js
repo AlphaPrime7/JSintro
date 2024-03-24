@@ -46,3 +46,10 @@ const cararr_mod = cararr.map(object => {
 //TESTS
 console.log(cararr_mod)
   
+//LOOP THROUGH AN ARRAY
+var arrs = ["Hi", "Hello", "Bonjour", "Hola"];
+arrs.push("Salut", "Hey");
+console.log(cararr)
+for (var i = 0; i < cararr.length; i++) {
+    console.log(cararr[i]);
+  }
