@@ -23,14 +23,14 @@ const cararr = [
             make:'chevy',
             model:'Equninox', 
             year:2014}
-        },
+        }
 
 ]
 
 //MODIFYING AN ARRAY OF DICTIONARIES
 function mod_car(arr,make,model,year) { //push,unshift,concat
-    arr.push = {}
-    arr.car = {make:make, model:model, year:year}
+    arr.car = {}
+    {arr.car = {make:make, model:model, year:year}}
     console.log(arr)
   }
 
